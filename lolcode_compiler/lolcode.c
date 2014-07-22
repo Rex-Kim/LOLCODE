@@ -6601,7 +6601,7 @@ void show_start_banner(void)
 	zwi2[t] = 0;
 	printf
 	    ("************************************************************\n");
-	printf("* This is %-20s                             *\n", VERSION);
+	printf("*            This is LOLCODE Mother Fucker                 *\n");
 	printf
 	    ("*                                                          *\n");
 	printf
