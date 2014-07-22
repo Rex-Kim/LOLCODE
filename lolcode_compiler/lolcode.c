@@ -19,7 +19,7 @@
 # define TRUE (0==0)
 # define FALSE (0!=0)
 # endif
-# define VERSION "LOLCODE V0.3 - Modified by Kyle Frost"
+# define VERSION "Mother Fucking LOLCODE V0.3 - Modified by Kyle Frost, Kenny Durkin was there too"
 # define MAGICNUMBER "lolc0003"
 # define MAGICNUMBERHEX "LoLC0003"
 
@@ -7354,7 +7354,7 @@ int main(int argc, char **argv)
 
 	fptab[fpcnt] = fopen(fname[fpcnt], "rb");
 	if (fptab[fpcnt] == NULL) {
-		fprintf(stderr, "Couldn't fucking open >%s< for input you dumbass, aborting this shit...\n",
+		fprintf(stderr, "Couldn't fucking open >%s< for input you damn Jew, aborting this shit...\n",
 			fname[fpcnt]);
 		exit(1);
 	}
