@@ -1,9 +1,6 @@
 /******************************************************************************
-	NEW:
 
-   monitor
-	clearmonitor
-	unmonitor
+                            LOL its LOLCODE  
 
  ******************************************************************************/
 
@@ -7294,6 +7291,16 @@ int main(int argc, char **argv)
 				opt_nobanners = TRUE;
 				f = 1;
 			}
+            if (strcmp(argv[t], "-n") == 0) {
+                opt_nobanners = TRUE;
+                f = 1;
+            }
+            if (strcmp(argv[t], "-nb") == 0) {
+                opt_nobanners = TRUE;
+                opt_binary = TRUE;
+                opt_hex = TRUE;
+                f = 1;
+            }
 			if (strcmp(argv[t], "-dbg") == 0) {
 				opt_dbg = TRUE;
 				opt_list = TRUE;
