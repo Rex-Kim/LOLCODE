@@ -1,0 +1,4 @@
+LOLCODE
+=======
+
+FUCK THIS SHIT.
